@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: beige;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    text-align: center;
+}
+
+#botones {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.boton {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#total {
+    text-align: center;
+}
+
+#historial {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 2px;
+    width: 464px;
+    height: 464px;
+    background-color: burlywood;
+    justify-content: flex-start;
+}
+
+#blockHistorial {
+    display: flex;
+    justify-content: center;
+
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <meta charset="UTF-8">
+    <title>Veintiuno</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+  </head>
+  <body> 
+    <header>
+        <h1>Veintiuno</h1>
+    </header>
+    <div id="botones">
+        <div class="boton">
+            <button onclick="giveUp()">Me rindo</button>
+            <p id="giveUp"></p>
+        </div>
+        <div class="boton">
+            <button onclick="playGame()">Tirar el dado</button>
+            <p id="throwDice"></p>
+        </div>
+        <div class="boton">
+            <button onclick="restartGame()">Reiniciar el juego</button>
+        </div>
+    </div>
+    <p id="total"></p>
+    <div id="blockHistorial">
+        <div id="historial">
+            <p id="tiradas"></p>
+        </div>
+    </div id="blockHistorial">
+  </body>
+</html>
